@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: beige;
+}
+
+.title{
+    font-family: 'B612', sans-serif;
+    text-align: center;
+    margin-top: 10px;
+    height: 100px;
+    font-size: 30px;
+}
+
+.container, .container2, .container3 {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px;
+}
+
+
+#board{
+    margin: auto;
+}
+
+#openingtext{
+    margin-top: 20px;
+    text-align: center;
+}
+
+#startBtn, #clearBtn, #flipOrientationBtn, #sicilian, #stonewallAttack, #ruyLopez, #end, #start, #actualgame{
+    font-size: 15px;
+    font-family: 'B612', sans-serif;
+    border-radius: 10px;
+    border: 2px solid #2e2e2e;
+    background: none;
+    height: 50px;
+    width: 120px;
+    margin: 5px;
+}
+
+

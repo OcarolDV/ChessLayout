@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles1.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,700|Prata" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="topnav">
+        <a class="active" href="#home">Chess</a>
+        <a href="#vs">Versus</a>
+        <a href="#puzzles">Chess Puzzles</a>
+        <a href="#about">About</a>
+      </div>
+
+    </div>
+
+    <div class="main">
+        <div class="Chess" id="Chess">
+            
+        </div>
+        <div class="Side" id="Side">
+            <div class="OppInfo"></div>
+            <div class="moves">
+                <div class="move1"></div>
+                <div class="move2"></div>
+                <div class="move1"></div>
+                <div class="move2"></div>
+                <div class="move1"></div>
+                <div class="move2"></div>
+                <div class="move1"></div>
+                <div class="move2"></div>
+                <div class="move1"></div>
+                <div class="move2"></div>
+                <div class="move1"></div>
+                <div class="move2"></div>
+                
+            </div>
+            <div class="chatbox"> </div>
+        </div>
+
+    </div>
+
+    <div class="chat">
+
+    </div>
+
+    <script>
+        let side = document.getElementById("Side");
+        let chess = document.getElementById("Chess");
+
+        side.onmouseover = function(){
+            chess.width = 400;
+            chess.height = 400;
+        }
+    </script>
+
+</body>
+</html>
